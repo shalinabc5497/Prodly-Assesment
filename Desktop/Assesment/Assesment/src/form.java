@@ -1,6 +1,3 @@
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,8 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class form {
 
-	@SuppressWarnings("deprecation")
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\HP\\Downloads\\geckodriver-v0.31.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
